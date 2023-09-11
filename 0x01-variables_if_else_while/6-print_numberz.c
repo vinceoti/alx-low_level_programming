@@ -10,7 +10,6 @@ int main(void)
 	int y;
 
 	for (y = 48; y < 58; y++)
-	
 		putchar(y);
 	
 	putchar('\n');
