@@ -11,7 +11,7 @@ int main(void)
 
 	for (y = 48; y < 58; y++)
 	
-		putchar(i);
+		putchar(y);
 	
 	putchar('\n');
 	return (0);
