@@ -1,7 +1,7 @@
 #include <stdio.h>
-/**main returns small alphabets
-*Alpabets in small letters 
-* betty style doc for function main goes there */
+/**main returns small alphabets*/
+/*Alpabets in small letters*/ 
+/* betty style doc for function main goes there */
 int main(void)
 {
 	char a[26] = "abcdefghijklmnopqrstuvwxyz";
