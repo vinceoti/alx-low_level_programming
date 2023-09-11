@@ -3,19 +3,19 @@
 #include <string.h>
 
 /**
- * main - Prints the alphabet without q and e.
+ * main - Outputs the alphabet except q and e.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int x;
 
-	for (i = 97; i < 123; i++)
+	for (x = 97; x < 123; x++)
 	{
-		if (i != 101 && i != 113)
+		if (x != 101 && x != 113)
 		{
-			putchar(i);
+			putchar(x);
 		}
 	}
 	putchar('\n');
