@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 0 to 9 and letters between a to f.
+ * main - Outputs numbers between 0 to 9 and letters between a to f.
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int b;
 
-	for (i = 48; i < 58; i++)
+	for (b = 48; b < 58; b++)
 	{
-		putchar(i);
+		putchar(b);
 	}
-	for (i = 97; i < 103; i++)
+	for (b = 97; b < 103; b++)
 	{
-		putchar(i);
+		putchar(b);
 	}
 	putchar('\n');
 	return (0);
